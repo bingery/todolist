@@ -1,0 +1,89 @@
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 288px;
+    height: 512px;
+    border-radius: 5px;
+    background: #38454d;
+}
+
+#id-input-todo {
+    color: white;
+    width: 180px;
+    height: 20px;
+    border-style: none;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: #38454d;
+}
+
+#id-button-add {
+    position: absolute;
+    right: 0px;
+    top: -8px;
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.todo-cell {
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.todo-delete {
+    position: absolute;
+    font-size: 25px;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-55%);
+    color: #38454d;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.done-color {
+    background-color: lightblue;
+}
+
+.header {
+    position: relative;
+}
+
+.header img {
+    width: 100px;
+}
+
+.show {
+    display: inline-block;
+}
+
+.todo-form{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+}
+
+.done {
+    color: lightgrey !important;
+    /* 删除线效果 */
+    text-decoration: solid line-through #B22222;
+    font-size: 20px;
+}
+
+.todo-done {
+    width: 15px;
+    height: 15px;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 25px;
+}
